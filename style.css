@@ -18,6 +18,22 @@ body {
 
 }
 
+#subheader a {
+	text-decoration: none;
+	color: white;
+}
+
+#subheader a:hover {
+	color: #b89827;
+}
+
+#subheader img {
+	width: 60px;
+	height: 60px;
+	background-color: #5e585c;
+	margin-top: -20px;
+}
+
 #listHeader li {
 	margin: 20px;
 	margin-bottom: 0px;
