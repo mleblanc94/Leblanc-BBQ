@@ -85,3 +85,18 @@ li button {
 #bodytext span {
 	color: #b89827;
 }
+
+#mainbody {
+ display: flex;
+ height: 500px;
+}
+
+#mainbody img {
+	width: 800px;
+	height: 100%;
+}
+
+#bodypictext {
+	color: white;
+	background-color: black;
+}
