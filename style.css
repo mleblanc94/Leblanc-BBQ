@@ -1,10 +1,8 @@
 html {
-	width: 100%;
 }
 
 body {
 	margin: 0;
-	width: 100%;
 }
 
 #header {
@@ -13,14 +11,12 @@ body {
 
 #listHeader {
 	margin-top: 0px;
-	padding-bottom: -30px;
 	margin-bottom: 0;
 	color: white;
 	background-color: #5e585c;
 	display: flex;
 	border-bottom: 1px gray solid;
 	font-size: 110%;
-
 }
 
 #socialmedia {
@@ -130,7 +126,6 @@ box-shadow: 10px 5px 5px black;
 #mainbody {
  display: flex;
  height: 500px;
- width: 100%;
 }
 
 #mainbody img {
@@ -212,7 +207,7 @@ h3:before{
 
 #featuredfavorites {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	margin-top: 80px;
 
 }
@@ -265,5 +260,19 @@ h3:before{
 @media screen and (max-width: 1000px){ 
   body {
 	  width: 100%;
+  }
+
+  #featuredfavorites {
+	display: flex;
+	justify-content: space-around;
+  }
+
+  #featuredfavorites img {
+	  width: 200px;
+	  height: 200px;
+  }
+
+  #listHeader li {
+	margin: 7px;
   }
 }
