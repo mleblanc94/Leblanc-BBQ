@@ -264,6 +264,7 @@ h3:before{
 	padding-left: 10px;
 	height: 60px;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
