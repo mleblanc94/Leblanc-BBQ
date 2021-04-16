@@ -247,6 +247,16 @@ h3:before{
 	font-size: 100%;
 }
 
+#orderingonline {
+	width: 170px;
+	height: 55px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 100%;
+}
+
 #footer {
 	background-color: #5e585c;
 	color: white;
@@ -297,4 +307,7 @@ h3:before{
 	list-style: none;
 	font-size: 75%;
 }
+
+#orderingonline {
+  font-size: 1.2rem;
 }
