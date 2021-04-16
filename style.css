@@ -313,3 +313,10 @@ h3:before{
 #orderingonline {
   font-size: 1.2rem;
 }
+
+@media screen and (max-width: 400px){
+	#featuredfavorites img {
+		width: 80px;
+		height: 80px;
+	}
+}
