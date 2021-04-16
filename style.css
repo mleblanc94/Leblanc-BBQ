@@ -45,7 +45,7 @@ body {
 }
 
 #listHeader li {
-	margin: 20px;
+	margin: 40px;
 	margin-bottom: 0px;
 	margin-top: 11px;
 	padding-bottom: 0px;
@@ -235,6 +235,7 @@ h3:before{
 	background-color: #b89827; 
 	margin-right: auto;
 	margin-left: auto;
+	font-size: 100%;
 }
 
 #orderonline {
