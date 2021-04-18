@@ -136,7 +136,7 @@ box-shadow: 10px 5px 5px black;
 #bodypictext {
 	color: white;
 	background-color: black;
-	width: 100%;
+	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -275,6 +275,11 @@ h3:before{
 	  width: 100%;
   }
 
+  #mainbody img {
+	width: 100%;
+	height: 300px;
+}
+
   #featuredfavorites {
 	display: flex;
 	justify-content: space-around;
@@ -313,6 +318,10 @@ h3:before{
 
 #orderingonline {
   font-size: 1.2rem;
+}
+
+#bodypictext {
+	font-size: 100%;
 }
 
 @media screen and (max-width: 400px){
