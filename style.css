@@ -286,7 +286,8 @@ h3:before{
   }
 
   #listHeader li {
-	margin: 7px;
+	margin: 2px;
+	font-size: .6rem;
   }
 
   #subheader li {
