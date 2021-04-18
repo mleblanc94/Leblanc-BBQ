@@ -125,7 +125,7 @@ box-shadow: 10px 5px 5px black;
 
 #mainbody {
  display: flex;
- height: 500px;
+ height: auto;
 }
 
 #mainbody img {
@@ -136,7 +136,7 @@ box-shadow: 10px 5px 5px black;
 #bodypictext {
 	color: white;
 	background-color: black;
-	height: 100%;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -277,7 +277,7 @@ h3:before{
 
   #mainbody img {
 	width: 100%;
-	height: 300px;
+	height: auto;
 }
 
   #featuredfavorites {
