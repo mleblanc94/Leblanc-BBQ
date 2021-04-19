@@ -285,9 +285,21 @@ h3:before{
 	justify-content: space-around;
   }
 
+  #featuredfavorites div {
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 33.3%;
+  }
+
+  #featuredfavorites div p {
+	align-items: center; 
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
   #featuredfavorites img {
-	  width: 200px;
-	  height: 200px;
+	width: 225px;
+	height: 225px;
   }
 
   #listHeader li {
