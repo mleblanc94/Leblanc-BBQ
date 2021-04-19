@@ -307,9 +307,13 @@ h3:before{
 	font-size: .6rem;
   }
 
+  #subheader {
+	  padding: 5px;
+  }
+
   #subheader li {
-	font-size: .8rem;
-	margin: 15px;
+	font-size: .4rem;
+	margin: 5px;
   }
 
   #subheader img {
@@ -318,9 +322,9 @@ h3:before{
   }
 
   #orderonline {
-	width: 85px;
-	height: 27px;
-	font-size: 70%;
+	width: 43px;
+	height: 20px;
+	font-size: 80%;
   }
 
   #bodytext {
