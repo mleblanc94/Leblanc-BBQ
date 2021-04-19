@@ -15,6 +15,7 @@ body {
 	color: white;
 	background-color: #5e585c;
 	display: flex;
+	flex-wrap: wrap;
 	border-bottom: 1px gray solid;
 	font-size: 110%;
 }
