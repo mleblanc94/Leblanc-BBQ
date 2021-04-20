@@ -271,6 +271,20 @@ h3:before{
 }
 
 /* Media Query */
+@media screen and (max-width: 1312px){
+	#featuredfavorites img {
+		width: 225px;
+		height: 225px;
+	  }
+}
+
+@media screen and (max-width: 1100px){
+	#bodytext {
+		list-style: none;
+		font-size: 120%;
+	}
+}
+
 @media screen and (max-width: 1000px){ 
   body {
 	  width: 100%;
@@ -313,7 +327,7 @@ h3:before{
   }
 
   #subheader li {
-	font-size: .43rem;
+	font-size: .7rem;
 	margin: 5px;
   }
 
@@ -324,8 +338,8 @@ h3:before{
   }
 
   #orderonline {
-	width: 43px;
-	height: 20px;
+	width: 86px;
+	height: 40px;
 	font-size: 80%;
   }
 
@@ -342,9 +356,14 @@ h3:before{
 	font-size: 100%;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 784px){
 	#featuredfavorites img {
-		width: 80px;
-		height: 80px;
+		width: 125px;
+		height: 125px;
+		margin: 5px; ,
+	  }
+
+	  #featuredfavorites h4, p {
+		font-size: .6rem;
 	}
 }
