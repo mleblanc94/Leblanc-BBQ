@@ -313,8 +313,8 @@ h3:before{
   }
 
   #subheader li {
-	font-size: .35rem;
-	margin: 2px;
+	font-size: .43rem;
+	margin: 5px;
   }
 
   #subheader img {
@@ -331,7 +331,7 @@ h3:before{
 
   #bodytext {
 	list-style: none;
-	font-size: 30.%;
+	font-size: 75%;
 }
 
 #orderingonline {
