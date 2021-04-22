@@ -363,7 +363,7 @@ h3:before{
 
 @media screen and (max-width: 813px){
 	#subheader li {
-		font-size: .35rem;
+		font-size: .55rem;
 		margin: 3px;
 	  }
 }
@@ -378,4 +378,23 @@ h3:before{
 	  #featuredfavorites h4, p {
 		font-size: .6rem;
 	}
+}
+
+@media screen and (max-width: 420px){
+	#subheader li {
+		font-size: .4rem;
+		margin: 3px;
+	  }
+
+	  #orderonline {
+		width: 66px;
+		height: 20px;
+		font-size: 80%;
+	  }
+
+	  #featuredfavorites img {
+		width: 100px;
+		height: 100px;
+		margin: 5px;
+	  }
 }
