@@ -20,6 +20,16 @@ body {
 	font-size: 110%;
 }
 
+.fa-facebook {
+	font-size: 2rem;
+	color: blue;
+}
+
+.fa-instagram {
+	color: #FD1D1D; 
+	font-size: 2rem;
+}
+
 #socialmedia {
 	margin-left: auto;
 	display: flex;
