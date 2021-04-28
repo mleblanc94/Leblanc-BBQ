@@ -294,10 +294,21 @@ h3:before{
 	  }
 }
 
-@media screen and (max-width: 1200px){
-     #listheader {
-		 font-size: 60%;
+@media screen and (max-width: 1280px){
+     #listHeader {
+		 font-size: 100%;
+		 margin: 
 	 }
+
+	 #listHeader li {
+		margin: 5px; 
+	 }
+}
+
+@media screen and (max-width: 1200px){
+	#listHeader {
+		font-size: 90%;
+	}
 }
 
 @media screen and (max-width: 1120px){
@@ -346,7 +357,7 @@ h3:before{
 
   #listHeader li {
 	margin: 2px;
-	font-size: .6rem;
+	font-size: .8rem;
   }
 
   #subheader {
