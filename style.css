@@ -111,8 +111,15 @@ li button {
 }
 
 #orderonline {
-/*	margin-top: -55px;*/
+border-radius: 10px;
 box-shadow: 10px 5px 5px black;
+width: 170px;
+height: 55px;
+margin-top: 10px;
+margin-bottom: 15px;
+margin-right: auto;
+margin-left: auto;
+font-size: 100%;
 }
 
 #underbodytext {
@@ -247,16 +254,8 @@ h3:before{
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 100%;
-}
-
-#orderonline {
-	width: 170px;
-	height: 55px;
-	margin-top: 10px;
-	margin-bottom: 15px;
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 100%;
+    border-radius: 10px;
+	border-color: black;
 }
 
 #orderingonline {
@@ -267,6 +266,8 @@ h3:before{
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 100%;
+	border-radius: 10px;
+	border-color: black;
 }
 
 #footer {
@@ -353,9 +354,7 @@ h3:before{
   }
 
   #orderonline {
-	width: 86px;
-	height: 40px;
-	font-size: 80%;
+
   }
 
   #bodytext {
@@ -365,6 +364,7 @@ h3:before{
 
 #orderingonline {
   font-size: 1.2rem;
+
 }
 
 #bodypictext {
