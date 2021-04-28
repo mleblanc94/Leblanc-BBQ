@@ -273,6 +273,7 @@ h3:before{
 	font-size: 100%;
 	border-radius: 10px;
 	border-color: black;
+	background-color: #c4c4c4;
 }
 
 #footer {
@@ -375,10 +376,6 @@ h3:before{
 	margin-top: 0%;
   }
 
-  #orderonline {
-
-  }
-
   #bodytext {
 	list-style: none;
 	font-size: 75%;
@@ -386,7 +383,6 @@ h3:before{
 
 #orderingonline {
   font-size: 1.2rem;
-
 }
 
 #bodypictext {
