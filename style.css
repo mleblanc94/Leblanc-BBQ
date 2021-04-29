@@ -320,7 +320,7 @@ h3:before{
 	  }
 }
 
-@media screen and (max-width: 1000px){ 
+@media screen and (max-width: 1020px){ 
   body {
 	  width: 100%;
   }
