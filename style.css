@@ -6,7 +6,7 @@ body {
 	padding-bottom: 0px;
 }
 
-#listHeader {
+.listheader {
 	margin-top: 0px;
 	margin-bottom: 0;
 	color: white;
@@ -32,20 +32,20 @@ body {
 	display: flex;
 }
 
-#listHeader span {
+.listheader span {
 	color: #b89827;
 }
 
-#subheader a {
+.subheader a {
 	text-decoration: none;
 	color: white;
 }
 
-#subheader a:hover {
+.subheader a:hover {
 	color: #b89827;
 }
 
-#subheader img {
+.subheader img {
 	width: 100px;
 	height: 100px;
 	background-color: #5e585c;
@@ -60,7 +60,7 @@ body {
 	color: #b89827;
 }
 
-#listHeader li {
+.listheader li {
 	margin: 10px;
 	margin-bottom: 0px;
 	margin-top: 11px;
@@ -68,7 +68,7 @@ body {
 	list-style-type: none;
 }
 
-#listHeader a {
+.listheader a {
 	margin-left: auto;
 }
 
@@ -77,7 +77,7 @@ li img {
 	width: 30px;
 }
 
-#subheader {
+.subheader {
 	color: white;
 	background-color: #5e585c;
 	display: flex;
@@ -87,11 +87,39 @@ li img {
 	padding: 15px;
 }
 
+.burgerMenuDiv {
+	color: white;
+	background-color: #5e585c;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 15px;
+	width: 100%;
+	display: none;
+}
+
+.burgerMenuDiv ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-right: 7%;
+}
+
+.fa-bars {
+	font-size: 4rem;
+}
+
+.burgerMenuLogo {
+	height: 100px;
+	width: 100px;
+}
+
 #orderonline a:hover {
  color: black;
 }
 
-#subheader li {
+.subheader li {
    font-size: 120%;
    margin: 20px 15px;
    list-style-type: none;
@@ -113,15 +141,15 @@ li button {
 }
 
 #orderonline {
-border-radius: 10px;
-box-shadow: 10px 5px 5px black;
-width: 170px;
-height: 55px;
-margin-top: 10px;
-margin-bottom: 15px;
-margin-right: auto;
-margin-left: auto;
-font-size: 100%;
+    border-radius: 10px;
+	box-shadow: 10px 5px 5px black;
+	width: 170px;
+	height: 55px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 100%;
 }
 
 #underbodytext {
@@ -293,17 +321,17 @@ h3:before{
 }
 
 @media screen and (max-width: 1280px){
-     #listHeader {
+     .listheader {
 		 font-size: 100%;
 	 }
 
-	 #listHeader li {
+	 .listheader li {
 		margin: 5px; 
 	 }
 }
 
 @media screen and (max-width: 1200px){
-	#listHeader {
+	.listheader {
 		font-size: 90%;
 	}
 }
@@ -314,7 +342,7 @@ h3:before{
 		font-size: 120%;
 	}
 
-	#subheader li {
+	.subheader li {
 		font-size: .9rem;
 		margin: 5px;
 	  }
@@ -352,23 +380,23 @@ h3:before{
 	height: 225px;
   }
 
-  #listHeader li {
+  .listheader li {
 	margin: 2px;
 	font-size: .8rem;
   }
 
-  #subheader {
+  .subheader {
 	  padding: 5px;
   }
 
-  #subheader li {
-	font-size: .8rem;
+  .subheader li {
+	font-size: .9rem;
 	margin: 5px;
   }
 
-  #subheader img {
-	width: 50px;
-	height: 50px;
+  .subheader img {
+	width: 55px;
+	height: 55px;
 	margin-top: 0%;
   }
 
@@ -386,9 +414,24 @@ h3:before{
 }
 }
 
+/* Creating a burger menu */
+@media(max-width: 875px){
+	.listheader {
+		display: none;
+	}
+
+	.subheader {
+		display: none;
+	}
+
+	.burgerMenuDiv {
+		display: block;
+	}
+}
+
 /* For Phone Screens */
 @media screen and (max-width: 813px){
-	#subheader li {
+	.subheader li {
 		font-size: .55rem;
 		margin: 3px;
 	  }
@@ -412,7 +455,7 @@ h3:before{
 }
 
 @media screen and (max-width: 420px){
-	#subheader li {
+	.subheader li {
 		font-size: .4rem;
 		margin: 3px;
 	  }
