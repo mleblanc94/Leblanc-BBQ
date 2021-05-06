@@ -110,9 +110,13 @@ li img {
 }
 
 .fa-bars {
-	font-size: 4rem;
+	font-size: 3rem;
 	padding-top: 25%;
 	color: white;
+}
+
+.fa-bars:hover {
+     color: #b89827; 
 }
 
 .burgerMenuLogo {
