@@ -207,7 +207,7 @@ h2 {
 	position: relative;
 }
 
-h2:before{
+h2:before {
     content: "";
     position: absolute;
     width: 10%;
@@ -430,7 +430,16 @@ h3:before{
 	}
 
 	.subheader {
-		display: none;
+		height: 70vh;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		display: none; 
+		transition: top 1s ease;
+	}
+
+	.subheader li {
+		font-size: 1.5rem;
 	}
 
 	.burgerMenuDiv {
