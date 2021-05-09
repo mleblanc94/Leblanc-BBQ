@@ -445,6 +445,10 @@ h3:before{
 	.burgerMenuDiv {
 		display: block;
 	}
+
+	#orderonline {
+		font-size: 1.2rem;
+	}
 }
 
 /* For Phone Screens */
