@@ -429,20 +429,19 @@ h3:before{
 	}
 
 	.subheader {
-		height: 70vh;
+		height: 68vh;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		display: none; 
 		transition: top 1s ease;
-		margin-top: -100px;
+		margin-top: -35px;
+		padding-bottom: 0px;
 	}
 
 	.subheader li {
 		font-size: 1.7rem;
 	}
-
-
 
 	.burgerMenuDiv {
 		display: block;
