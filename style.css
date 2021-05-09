@@ -429,7 +429,7 @@ h3:before{
 	}
 
 	.subheader {
-		height: 68vh;
+		height: 60vh;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -466,16 +466,10 @@ h3:before{
 	}
 }
 
-@media screen and (max-width: 420px){
-	  #orderonline {
-		width: 66px;
-		height: 20px;
-		font-size: 80%;
-	  }
-
+ @media screen and (max-width: 420px){
 	  #featuredfavorites img {
 		width: 100px;
 		height: 100px;
 		margin: 5px;
 	  }
-	}
+	}  
