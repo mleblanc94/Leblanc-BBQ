@@ -108,6 +108,10 @@ li img {
 	padding-bottom: 15px;
 }
 
+.fa-times {
+	display: none;
+}
+
 .fa-bars {
 	font-size: 3rem;
 	padding-top: 25%;
@@ -449,6 +453,21 @@ h3:before{
 
 	#orderonline {
 		font-size: 1.2rem;
+	}
+
+	.push {
+		margin-right: 0;
+		/* width: 100%; */
+		display: flex;
+		justify-content:space-between;
+		padding-right: 45px;
+		padding-left: 45px;
+	}
+
+	.fa-times {
+		font-size: 3rem;
+		display: flex;
+		
 	}
 }
 
