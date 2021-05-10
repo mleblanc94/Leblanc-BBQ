@@ -90,7 +90,7 @@ li img {
 .burgerMenuDiv {
 	color: white;
 	background-color: #5e585c;
-	display: flex;
+	/* display: flex; */
 	justify-content: space-between;
 	align-items: center;
 	margin: 0;
@@ -433,7 +433,7 @@ h3:before{
 	}
 
 	.subheader {
-		height: 55vh;
+		height: 58vh;
 		flex-direction: column;
 		justify-content: flex-end;
 		align-items: center;
