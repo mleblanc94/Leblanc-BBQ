@@ -116,6 +116,7 @@ li img {
 	font-size: 3rem;
 	padding-top: 25%;
 	color: white;
+	cursor: pointer;
 }
 
 .fa-bars:hover {
@@ -407,9 +408,8 @@ h3:before{
   }
 
   .subheader img {
-	width: 55px;
-	height: 55px;
-	margin-top: 0%;
+	width: 85px;
+	height: 85px;
   }
 
   #bodytext {
@@ -433,7 +433,7 @@ h3:before{
 	}
 
 	.subheader {
-		height: 60vh;
+		height: 70vh;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -458,6 +458,7 @@ h3:before{
 	.push {
 		margin-right: 0;
 		width: 100%;
+		margin-top: 35px;
 		display: flex;
 		justify-content:space-between;
 	}
@@ -466,6 +467,11 @@ h3:before{
 		font-size: 3rem;
 		display: flex;
 		
+	}
+
+	#exitOut {
+		margin-right: 10px;
+		cursor: pointer;
 	}
 }
 
