@@ -433,23 +433,23 @@ h3:before{
 	}
 
 	.subheader {
-		height: 70vh;
+		height: 55vh;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: flex-end;
 		align-items: center;
 		display: none; 
 		transition: top 1s ease;
 		margin-top: -95px;
-		padding-bottom: 0px;
+		padding-bottom: 10px;
 	}
 
 	.subheader ul {
 		padding-top: 0px;
-
+        margin-bottom: -400px;
 	}
 
 	.subheader li {
-		font-size: 1.7rem;
+		font-size: 1.6rem;
 	}
 
 	.burgerMenuDiv {
@@ -458,12 +458,13 @@ h3:before{
 
 	#orderonline {
 		font-size: 1.2rem;
+		margin-bottom: 0px;
 	}
 
 	.push {
 		margin-right: 0;
 		width: 100%;
-		/* margin-top: 35px; */
+		margin-bottom: 0px;
 		display: flex;
 		justify-content:space-between;
 	}
