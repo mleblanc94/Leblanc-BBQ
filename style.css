@@ -439,8 +439,13 @@ h3:before{
 		align-items: center;
 		display: none; 
 		transition: top 1s ease;
-		margin-top: -35px;
+		margin-top: -95px;
 		padding-bottom: 0px;
+	}
+
+	.subheader ul {
+		padding-top: 0px;
+
 	}
 
 	.subheader li {
@@ -458,7 +463,7 @@ h3:before{
 	.push {
 		margin-right: 0;
 		width: 100%;
-		margin-top: 35px;
+		/* margin-top: 35px; */
 		display: flex;
 		justify-content:space-between;
 	}
@@ -468,6 +473,10 @@ h3:before{
 		display: flex;
 		
 	}
+
+	.fa-times:hover {
+		color: #b89827; 
+   }
 
 	#exitOut {
 		margin-right: 10px;
