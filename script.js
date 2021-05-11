@@ -13,8 +13,5 @@ let exitBurgerMenu = () => {
     burgerDisplay.style.display = 'block';
 }
 
-
-
-
 menu.addEventListener('click', openMenu);
 exitOut.addEventListener('click', exitBurgerMenu);
