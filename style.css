@@ -509,4 +509,19 @@ h3:before{
 	  .subheader li {
 		  font-size: 1.05rem;
 	  }
-	}  
+	}
+
+
+
+
+	/* Grill Master Mike Page */
+
+	#GMM-bodypic {
+		background-image: url();
+		height: 60vh;
+	}
+
+	#GMM-bodypic img {
+		width: 100%;
+		
+	}
