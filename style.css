@@ -523,5 +523,9 @@ h3:before{
 
 	#GMM-bodypic img {
 		width: 100%;
-		
+	}
+
+	#GMM-mainbody {
+		display: flex;
+		justify-content: center;
 	}
