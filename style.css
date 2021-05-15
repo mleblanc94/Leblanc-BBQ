@@ -529,3 +529,7 @@ h3:before{
 		display: flex;
 		justify-content: center;
 	}
+
+	#GMM-mainbodytext {
+		flex: wrap;
+	}
