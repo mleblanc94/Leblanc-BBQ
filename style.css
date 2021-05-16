@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Newsreader&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body {
 	margin: 0;
@@ -577,6 +578,7 @@ h3:before{
 
 	#smokedMeatsContainer {
 		margin: 0% 20%;
+        font-family: 'Montserrat', sans-serif;
 	}
 
 	#burntEnds, #brisket, #smokedTurkey, #louisStyleRibs, #smokedChicken, #pulledPork {
