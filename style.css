@@ -516,11 +516,6 @@ h3:before{
 
 	/* Grill Master Mike Page */
 
-	#GMM-bodypic {
-		background-image: url();
-		height: 60vh;
-	}
-
 	#GMM-bodypic img {
 		width: 100%;
 	}
@@ -531,5 +526,6 @@ h3:before{
 	}
 
 	#GMM-mainbodytext {
+		width: 50%;
 		flex: wrap;
 	}
