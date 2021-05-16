@@ -237,7 +237,7 @@ h2:before {
 #lowerbodytext p, h1 {
 	font-weight: bold;
 	font-size: 150%;
-	font-family: "Gill Sans";
+	/* font-family: "Gill Sans"; */
 }
 
 #meatman {
@@ -555,4 +555,28 @@ h3:before{
 		text-align: left;
 		line-height: 1.5;
 		color: #2d323b;
+	}
+
+	/* Menu Page */
+
+	#MP-bodypic img {
+		width: 100%
+	}
+
+	#MP-MenuBody {
+		margin-top: 120px;
+	}
+
+	#smokedMeats {
+		text-align: center;
+		color: #d62b00;
+		font-size: 2rem;
+		font-family: 'Newsreader', serif;
+	}
+
+	#burntEnds {
+		display: flex;
+		color: black;
+		font-size: 1.5rem;
+		justify-content: center;
 	}
