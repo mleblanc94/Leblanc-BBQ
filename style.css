@@ -568,15 +568,62 @@ h3:before{
 	}
 
 	#smokedMeats {
-		text-align: center;
 		color: #d62b00;
-		font-size: 2rem;
+		font-size: 1.5rem;
 		font-family: 'Newsreader', serif;
+		display: flex;
+		justify-content: center;
 	}
 
-	#burntEnds {
+	#smokedMeatsContainer {
+		margin: 0% 20%;
+	}
+
+	#burntEnds, #brisket, #smokedTurkey, #louisStyleRibs, #smokedChicken, #pulledPork {
 		display: flex;
 		color: black;
 		font-size: 1.5rem;
 		justify-content: center;
+	}
+
+	#burntEnds div  {
+		margin: 0px 30px;
+		display: flex;
+		justify-content: space-between;
+		width: 40%;
+	}
+
+	#brisket div  {
+		margin: 0px 30px;
+		display: flex;
+		justify-content: space-between;
+		width: 40%;
+	}
+
+	#smokedTurkey div  {
+		margin: 0px 30px;
+		display: flex;
+		justify-content: space-between;
+		width: 40%;
+	}
+
+	#louisStyleRibs div  {
+		margin: 0px 30px;
+		display: flex;
+		justify-content: space-between;
+		width: 40%;
+	}
+
+	#smokedChicken div  {
+		margin: 0px 30px;
+		display: flex;
+		justify-content: space-between;
+		width: 40%;
+	}
+
+	#pulledPork div  {
+		margin: 0px 30px;
+		display: flex;
+		justify-content: space-between;
+		width: 40%;
 	}
