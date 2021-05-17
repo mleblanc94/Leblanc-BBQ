@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Newsreader&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:wght@300;500&display=swap');
 
 body {
 	margin: 0;
@@ -305,6 +306,10 @@ h3:before{
 	border-color: black;
 }
 
+#viewmenu a {
+	color: black;
+}
+
 #orderingonline {
 	width: 170px;
 	height: 55px;
@@ -579,6 +584,12 @@ h3:before{
 	#smokedMeatsContainer {
 		margin: 0% 20%;
         font-family: 'Montserrat', sans-serif;
+		color: #2d323b;
+	}
+
+	#smokedMeatsContainer span {
+		/* font-weight: bolder; */
+		font-family: 'Goblin One', cursive;
 	}
 
 	#burntEnds, #brisket, #smokedTurkey, #louisStyleRibs, #smokedChicken, #pulledPork {
