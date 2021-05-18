@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Newsreader&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mountains+of+Christmas:wght@700&family=Russo+One&display=swap');
 
 body {
 	margin: 0;
@@ -576,9 +577,7 @@ h3:before{
 	#smokedMeats {
 		color: #d62b00;
 		font-size: 2.5rem;
-		font-family: 'Newsreader', serif;
-		/* display: flex;
-		justify-content: center; */
+		font-family: 'Luckiest Guy', cursive;
 		margin: 0% 16%;
 	}
 
@@ -589,7 +588,6 @@ h3:before{
 	}
 
 	#smokedMeatsContainer span {
-		/* font-weight: bolder; */
 		font-family: 'Goblin One', cursive;
 	}
 
@@ -601,42 +599,36 @@ h3:before{
 	}
 
 	#burntEnds div  {
-		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
 		width: 45%;
 	}
 
 	#brisket div  {
-		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
 		width: 45%;
 	}
 
 	#smokedTurkey div  {
-		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
 		width: 45%;
 	}
 
 	#louisStyleRibs div  {
-		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
 		width: 45%;
 	}
 
 	#smokedChicken div  {
-		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
 		width: 45%;
 	}
 
 	#pulledPork div  {
-		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
 		width: 45%;
