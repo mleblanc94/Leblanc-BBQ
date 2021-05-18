@@ -554,7 +554,7 @@ h3:before{
 		letter-spacing: 0.5px;
 	}
 
-	#GMM-mainbodytext p {
+	/* #GMM-mainbodytext p { */
 		font-size: 1.3rem;
 		font-family: 'Mukta', sans-serif;
 		font-family: 'Newsreader', serif;
