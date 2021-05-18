@@ -579,15 +579,11 @@ h3:before{
 		font-family: 'Newsreader', serif;
 		/* display: flex;
 		justify-content: center; */
-		margin: 0% 10%;
-	}
-
-	#smokedMeats h1 {
-		margin-left:
+		margin: 0% 16%;
 	}
 
 	#smokedMeatsContainer {
-		margin: 0% 10%;
+		margin: 0% 16%;
         font-family: 'Montserrat', sans-serif;
 		color: #2d323b;
 	}
@@ -601,47 +597,47 @@ h3:before{
 		display: flex;
 		color: black;
 		font-size: 1.5rem;
-		justify-content: center;
+		justify-content: space-between;
 	}
 
 	#burntEnds div  {
-		margin: 0px 30px;
+		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
-		width: 40%;
+		width: 45%;
 	}
 
 	#brisket div  {
-		margin: 0px 30px;
+		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
-		width: 40%;
+		width: 45%;
 	}
 
 	#smokedTurkey div  {
-		margin: 0px 30px;
+		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
-		width: 40%;
+		width: 45%;
 	}
 
 	#louisStyleRibs div  {
-		margin: 0px 30px;
+		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
-		width: 40%;
+		width: 45%;
 	}
 
 	#smokedChicken div  {
-		margin: 0px 30px;
+		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
-		width: 40%;
+		width: 45%;
 	}
 
 	#pulledPork div  {
-		margin: 0px 30px;
+		/* margin: 0px 30px; */
 		display: flex;
 		justify-content: space-between;
-		width: 40%;
+		width: 45%;
 	}
