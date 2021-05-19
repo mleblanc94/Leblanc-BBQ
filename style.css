@@ -571,10 +571,10 @@ h3:before{
 	}
 
 	#MP-MenuBody {
-		margin-top: 100px;
+		margin: 130px;
 	}
 
-	#smokedMeats {
+	.smokedMeats {
 		color: #d62b00;
 		font-size: 2.5rem;
 		font-family: 'Luckiest Guy', cursive;
@@ -582,7 +582,7 @@ h3:before{
 	}
 
 	#smokedMeatsContainer {
-		margin: 0% 16%;
+		margin: 0% 16% 5% 16%;
         font-family: 'Montserrat', sans-serif;
 		color: #2d323b;
 	}
@@ -632,4 +632,22 @@ h3:before{
 		display: flex;
 		justify-content: space-between;
 		width: 45%;
+	}
+   
+    #platter-header h1 {
+		margin-bottom: 10px;
+	}
+
+	.whatsIncluded {
+		height: 75px;
+		background-color: #ebedf0;
+		margin: 0% 16%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		border-radius: 10px;
+	}
+
+	.whatsIncluded p {
+		margin: 1% 1%;
 	}
