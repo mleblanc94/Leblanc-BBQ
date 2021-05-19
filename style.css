@@ -651,3 +651,7 @@ h3:before{
 	.whatsIncluded p {
 		margin: 1% 1%;
 	}
+
+	#platterContainer {
+		margin: 0% 16%;
+	}
