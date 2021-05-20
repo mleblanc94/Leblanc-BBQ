@@ -653,5 +653,18 @@ h3:before{
 	}
 
 	#platterContainer {
-		margin: 0% 16%;
+		margin: 2% 16%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#platterContainer div {
+		display: flex;
+		justify-content: space-between;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.5rem;
+	}
+
+	#platterContainer span {
+		font-family: 'Goblin One', cursive;
 	}
