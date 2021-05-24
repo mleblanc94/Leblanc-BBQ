@@ -690,3 +690,7 @@ h3:before{
 	#BTB-ul li {
 		margin: 4px;
 	}
+
+	#betweenBuns-header h1 {
+		margin-bottom: 5px;
+	}
