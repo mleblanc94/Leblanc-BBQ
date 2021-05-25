@@ -694,3 +694,25 @@ h3:before{
 	#betweenBuns-header h1 {
 		margin-bottom: 5px;
 	}
+
+	#bbqSandwichReg-header {
+		display: flex;
+	}
+
+	#btb-line1 {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#betweenTheBunsOptions {
+		margin: 0% 16%;
+	}
+
+	#bbqSandwichReg {
+		width: 48%;
+	}
+
+	#bbqSandwichJumbo {
+		width: 50%;
+	}
