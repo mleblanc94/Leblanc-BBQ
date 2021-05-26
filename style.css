@@ -697,6 +697,7 @@ h3:before{
 
 	#bbqSandwichReg-header {
 		display: flex;
+		justify-content: space-between;
 	}
 
 	#btb-line1 {
@@ -715,4 +716,15 @@ h3:before{
 
 	#bbqSandwichJumbo {
 		width: 50%;
+	}
+
+	#bbqSandwichJumbo-header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.btb-descriptions {
+		text-align: left;
+		color: #808080;
+		margin-top: 0px;
 	}
