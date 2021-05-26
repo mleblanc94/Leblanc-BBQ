@@ -728,3 +728,9 @@ h3:before{
 		color: #808080;
 		margin-top: 0px;
 	}
+
+	#btb-line2 {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
