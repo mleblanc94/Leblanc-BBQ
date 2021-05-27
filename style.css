@@ -710,6 +710,10 @@ h3:before{
 		margin: 0% 16%;
 	}
 
+	#betweenTheBunsOptions span {
+		font-family: 'Goblin One', cursive;
+	}
+
 	#bbqSandwichReg {
 		width: 48%;
 	}
@@ -721,6 +725,11 @@ h3:before{
 	#bbqSandwichJumbo-header {
 		display: flex;
 		justify-content: space-between;
+	}
+
+	#betweenTheBuns {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.5rem;
 	}
 
 	.btb-descriptions {
