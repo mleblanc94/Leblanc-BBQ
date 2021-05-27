@@ -734,3 +734,30 @@ h3:before{
 		display: flex;
 		justify-content: space-between;
 	}
+
+	#shSandwichReg {
+		width: 48%;
+	}
+
+	#shSandwichReg-header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#shSandwichJumbo {
+		width: 50%;
+	}
+
+	#shSandwichJumbo-header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#btb-line3 {
+		width: 100%;
+	}
+
+	#cheeseBurger-header {
+		display: flex;
+		justify-content: space-between;
+	}
