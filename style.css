@@ -770,3 +770,12 @@ h3:before{
 		display: flex;
 		justify-content: space-between;
 	}
+
+	#btb-line4 {
+		width: 100%;
+	}
+
+	#BBQBurger-header {
+		display: flex;
+		justify-content: space-between;
+	}
