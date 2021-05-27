@@ -670,16 +670,6 @@ h3:before{
 		font-family: 'Goblin One', cursive;
 	}
 
-	.whatsIncluded2 {
-		height: auto;
-		background-color: #ebedf0;
-		margin: 0% 16%;
-		display: flex;
-		justify-content: flex-start;
-		border-radius: 10px;
-		margin-bottom: 5px;
-	}
-
 	#BTB-ul {
 		list-style: none;
 		margin-top: 5px;
@@ -778,4 +768,9 @@ h3:before{
 	#BBQBurger-header {
 		display: flex;
 		justify-content: space-between;
+	}
+
+	#whatsIncludedDescription {
+		font-size: 1rem;
+		font-family: 'Montserrat', sans-serif;
 	}
