@@ -775,14 +775,11 @@ h3:before{
 		font-family: 'Montserrat', sans-serif;
 	}
 
-	#signatureBowls {
-		margin: 0% 16%;
-	}
-
 	#signatureBowls-header h1 {
 		margin-bottom: 10px;
 	}
 
 	#pigOutBowl-header {
 		display: flex;
+		justify-content: space-between;
 	}
