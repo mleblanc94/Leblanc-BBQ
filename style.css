@@ -782,4 +782,7 @@ h3:before{
 	#pigOutBowl-header {
 		display: flex;
 		justify-content: space-between;
+		margin: 0% 16%;
+		font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
 	}
