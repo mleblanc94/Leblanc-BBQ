@@ -47,19 +47,17 @@ body {
 	color: white;
 }
 
-#subheader a:hover {
+.subheader a:hover {
 	color: #b89827;
 }
 
-#subheader img {
-	width: 60px;
-	height: 60px;
+.subheader img {
+	width: 100px;
+	height: 100px;
 	background-color: #5e585c;
 	margin-top: -20px;
 }
 
-#listHeader li {
-	margin: 20px;
 #separator {
 	color: gray;
 }
@@ -209,10 +207,6 @@ li button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-<<<<<<< HEAD
-	font-size: 350%;
-}
-=======
 	font-size: 400%;
 	padding-left: 8px;
 }
@@ -784,9 +778,6 @@ h3:before{
 	#signatureBowls-header h1 {
 		margin-bottom: 10px;
 	}
-<<<<<<< HEAD
->>>>>>> f02f628554ce74fa2b1e7f01780de801e7b1ef78
-=======
 
 	#pigOutBowl-header {
 		display: flex;
@@ -805,4 +796,3 @@ h3:before{
 		font-family: 'Montserrat', sans-serif;
 		margin: 0% 16%;
 	}
->>>>>>> 7d576c9125fceb65a1e81c8facb5ae9ffa5fc018
