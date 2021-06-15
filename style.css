@@ -42,20 +42,11 @@ body {
 	color: #b89827;
 }
 
-<<<<<<< HEAD
-#listHeader span {
-	color: #b89827;
-}
-
-#subheader a {
-=======
 .subheader a {
->>>>>>> f02f628554ce74fa2b1e7f01780de801e7b1ef78
 	text-decoration: none;
 	color: white;
 }
 
-<<<<<<< HEAD
 #subheader a:hover {
 	color: #b89827;
 }
@@ -63,23 +54,12 @@ body {
 #subheader img {
 	width: 60px;
 	height: 60px;
-=======
-.subheader a:hover {
-	color: #b89827;
-}
-
-.subheader img {
-	width: 100px;
-	height: 100px;
->>>>>>> f02f628554ce74fa2b1e7f01780de801e7b1ef78
 	background-color: #5e585c;
 	margin-top: -20px;
 }
 
-<<<<<<< HEAD
 #listHeader li {
 	margin: 20px;
-=======
 #separator {
 	color: gray;
 }
@@ -90,7 +70,6 @@ body {
 
 .listheader li {
 	margin: 10px;
->>>>>>> f02f628554ce74fa2b1e7f01780de801e7b1ef78
 	margin-bottom: 0px;
 	margin-top: 11px;
 	padding-bottom: 0px;
@@ -110,20 +89,6 @@ li img {
 	color: white;
 	background-color: #5e585c;
 	display: flex;
-<<<<<<< HEAD
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding: 30px;
-}
-
-#orderonline a:hover {
- color: black;
-}
-
-#subheader ul {
-	margin-top: 0px;
-	margin: left auto;
-=======
 	justify-content: flex-end;
 	align-items: center;
 	margin: 0;
@@ -160,7 +125,6 @@ li img {
 	padding-top: 25%;
 	color: white;
 	cursor: pointer;
->>>>>>> f02f628554ce74fa2b1e7f01780de801e7b1ef78
 }
 
 .fa-bars:hover {
@@ -230,19 +194,11 @@ li button {
 
 #mainbody {
  display: flex;
-<<<<<<< HEAD
- height: 500px;
-}
-
-#mainbody img {
-	width: 800px;
-=======
  height: auto;
 }
 
 #mainbody img {
 	width: 100%;
->>>>>>> f02f628554ce74fa2b1e7f01780de801e7b1ef78
 	height: 100%;
 }
 
