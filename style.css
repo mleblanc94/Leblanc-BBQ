@@ -800,6 +800,16 @@ h3:before{
 	
 	/* Media Page */
 
+	.mediaHeader {
+		font-family: fantasy;
+		font-size: 3rem;
+		margin-left: 1%;
+		border-bottom: 2px solid green;
+		width: 750px;
+		text-align: center;
+	}
+
 	.imgGallery {
 		display: flex;
+		flex-wrap: wrap;
 	}
