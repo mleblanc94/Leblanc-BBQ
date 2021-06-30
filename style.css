@@ -240,7 +240,6 @@ h2:before {
 #lowerbodytext p, h1 {
 	font-weight: bold;
 	font-size: 150%;
-	/* font-family: "Gill Sans"; */
 }
 
 #meatman {
@@ -443,7 +442,7 @@ h3:before{
 	}
 
 	.subheader {
-		height: 58vh;
+		height: 75vh;
 		flex-direction: column;
 		justify-content: flex-end;
 		align-items: center;
@@ -467,8 +466,10 @@ h3:before{
 	}
 
 	#orderonline {
-		font-size: 1.2rem;
+		font-size: .6rem;
 		margin-bottom: 0px;
+		width: 85px;
+		height: 30px;
 	}
 
 	.push {
