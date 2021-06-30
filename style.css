@@ -807,8 +807,8 @@ h3:before{
 		margin-left: 0;
 		margin-top: 0;
 		padding: 10px;
-		border-bottom: 2px solid green;
-		border-right: 2px solid green;
+		border-bottom: 3px solid green;
+		border-right: 3px solid green;
 		width: 750px;
 		text-align: center;
 	}
@@ -823,4 +823,9 @@ h3:before{
 		height: 400px; 
 		width: 400px;
 		margin: 10px;
+		transition: 1s;
+	}
+
+	.imgGallery img:hover {
+		transform: scale(1.09);
 	}
