@@ -816,6 +816,32 @@ h3:before{
         font-size: 1.5rem;
 	}
 
+	#turkeyBowl-header {
+		display: flex;
+		justify-content: space-between;
+		margin: 0% 16%;
+		font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+	}
+
+	#ketoBowl-header {
+		display: flex;
+		justify-content: space-between;
+		margin: 0% 16%;
+		font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+	}
+
+	#tofuBowl-header {
+		display: flex;
+		justify-content: space-between;
+		margin: 0% 16%;
+		font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+	}
+
+
+
 	
 	/* Media Page */
 
