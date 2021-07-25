@@ -800,6 +800,22 @@ h3:before{
 		margin: 0% 16%;
 	}
 
+	#burntEndBowl-header {
+		display: flex;
+		justify-content: space-between;
+		margin: 0% 16%;
+		font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+	}
+
+	#macNcheeseBowl-header {
+		display: flex;
+		justify-content: space-between;
+		margin: 0% 16%;
+		font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+	}
+
 	
 	/* Media Page */
 
