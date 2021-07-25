@@ -844,6 +844,14 @@ h3:before{
 		margin-bottom: 10px;
 	}
 
+	.sides {
+		margin: 0% 16%;
+	}
+
+	.sides-lines {
+		display: flex;
+		font-size: 1.7rem;
+	}
 
 
 	
