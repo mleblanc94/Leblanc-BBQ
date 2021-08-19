@@ -445,19 +445,20 @@ h3:before{
 	}
 
 	.subheader {
-		height: 75vh;
+		height: 44vh;
 		flex-direction: column;
 		justify-content: flex-end;
 		align-items: center;
 		display: none; 
 		transition: top 1s ease;
-		margin-top: -95px;
+		/* margin-top: -95px; */
 		padding-bottom: 10px;
+		font-size: .6rem;
 	}
 
 	.subheader ul {
 		padding-top: 0px;
-        margin-bottom: -400px;
+        /* margin-bottom: -400px; */
 	}
 
 	.subheader li {
